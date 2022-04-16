@@ -14,24 +14,22 @@ namespace Acrysel.Services;
 
 public class YoutubeApiClient : IYoutubeApiClient
 {
-    public const string BaseUrl = "https://www.googleapis.com/youtube/v3/search?part=id&part=snippet&type=channel";
-    private readonly IConfiguration _configuration;
+    private const string BaseUrl = "https://www.googleapis.com/youtube/v3/search?part=id&part=snippet&type=channel";
     private readonly HttpClient _httpClient;
+    private readonly string _apiKey;
 
     public YoutubeApiClient(IConfiguration configuration, HttpClient httpClient)
     {
-        _configuration = configuration;
         _httpClient = httpClient;
+        _apiKey = configuration.GetValue<string?>("YOUTUBE_API_KEY") ??
+                  throw new InvalidOperationException("YOUTUBE_API_KEY environment variable not set.");
     }
 
     public async Task<Result<IEnumerable<YoutubeChannelDescriptor>>> SearchForChannelAsync(string nameQuery)
     {
         var fullQueryUrl = QueryHelpers.AddQueryString(BaseUrl, "q", nameQuery);
 
-        var apiKey = _configuration.GetValue<string?>("YOUTUBE_API_KEY") ??
-                     throw new InvalidOperationException("YOUTUBE_API_KEY environment variable not set.");
-
-        var withToken = QueryHelpers.AddQueryString(fullQueryUrl, "key", apiKey);
+        var withToken = QueryHelpers.AddQueryString(fullQueryUrl, "key", _apiKey);
 
         var request = await _httpClient.GetAsync(withToken);
 
@@ -46,7 +44,6 @@ public class YoutubeApiClient : IYoutubeApiClient
 
         var jsonBody = await JsonSerializer.DeserializeAsync<YoutubeChannelSearchResponse>(stream);
 
-        return Result<IEnumerable<YoutubeChannelDescriptor>>.FromSuccess(jsonBody.Items.Select(item => item.Descriptor)
-            .ToArray());
+        return Result<IEnumerable<YoutubeChannelDescriptor>>.FromSuccess(jsonBody.Items.Select(item => item.Descriptor));
     }
 }
