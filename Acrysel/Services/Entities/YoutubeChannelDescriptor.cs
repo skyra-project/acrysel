@@ -21,13 +21,11 @@ public class YoutubeChannelDescriptor
 [PublicAPI]
 public class Thumbnails
 {
-    [JsonPropertyName("high")]
-    public High? High { get; set; }
+    [JsonPropertyName("high")] public High? High { get; set; }
 }
 
 [PublicAPI]
 public class High
 {
-    [JsonPropertyName("url")]
-    public Uri? Url { get; set; }
+    [JsonPropertyName("url")] public Uri? Url { get; set; }
 }

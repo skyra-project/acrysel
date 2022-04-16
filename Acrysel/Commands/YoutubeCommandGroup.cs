@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 using Acrysel.Services;
@@ -53,7 +52,7 @@ public class YoutubeCommandGroup : CommandGroup
                             .Select(result =>
                             {
                                 var createdAt = $" (Created At: {result.CreatedAt})";
-                                
+
                                 var description = $"{result.Description}";
 
                                 if (description.Length + createdAt.Length >= 100)
@@ -64,7 +63,7 @@ public class YoutubeCommandGroup : CommandGroup
                                 description += createdAt;
 
                                 var length = description.Length;
-                                
+
                                 return new SelectOption(result.ChannelTitle, result.Id, description);
                             }).ToArray())
                 })
@@ -77,7 +76,7 @@ public class YoutubeCommandGroup : CommandGroup
         {
             return Result.FromError(embedResult.Error);
         }
-        
+
         return Result.FromSuccess();
     }
 }

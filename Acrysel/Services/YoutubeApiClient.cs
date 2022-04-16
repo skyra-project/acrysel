@@ -15,8 +15,8 @@ namespace Acrysel.Services;
 public class YoutubeApiClient : IYoutubeApiClient
 {
     private const string BaseUrl = "https://www.googleapis.com/youtube/v3/search?part=id&part=snippet&type=channel";
-    private readonly HttpClient _httpClient;
     private readonly string _apiKey;
+    private readonly HttpClient _httpClient;
 
     public YoutubeApiClient(IConfiguration configuration, HttpClient httpClient)
     {
@@ -44,6 +44,7 @@ public class YoutubeApiClient : IYoutubeApiClient
 
         var jsonBody = await JsonSerializer.DeserializeAsync<YoutubeChannelSearchResponse>(stream);
 
-        return Result<IEnumerable<YoutubeChannelDescriptor>>.FromSuccess(jsonBody.Items.Select(item => item.Descriptor));
+        return Result<IEnumerable<YoutubeChannelDescriptor>>.FromSuccess(
+            jsonBody.Items.Select(item => item.Descriptor));
     }
 }
