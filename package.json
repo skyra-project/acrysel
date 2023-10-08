@@ -26,7 +26,7 @@
 	"dependencies": {
 		"@discordjs/builders": "^1.6.3",
 		"@discordjs/collection": "^1.5.1",
-		"@prisma/client": "^5.3.1",
+		"@prisma/client": "^5.4.1",
 		"@sapphire/utilities": "^3.13.0",
 		"@skyra/env-utilities": "^1.2.1",
 		"@skyra/http-framework": "^1.1.1",
@@ -47,17 +47,17 @@
 		"@sapphire/prettier-config": "^2.0.0",
 		"@sapphire/ts-config": "^4.0.1",
 		"@types/gradient-string": "^1.1.3",
-		"@types/node": "^18.18.1",
-		"@typescript-eslint/eslint-plugin": "^6.7.3",
-		"@typescript-eslint/parser": "^6.7.3",
+		"@types/node": "^18.18.4",
+		"@typescript-eslint/eslint-plugin": "^6.7.4",
+		"@typescript-eslint/parser": "^6.7.4",
 		"cz-conventional-changelog": "^3.3.0",
-		"eslint": "^8.50.0",
+		"eslint": "^8.51.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^14.0.1",
 		"prettier": "^3.0.3",
-		"prisma": "^5.3.1",
+		"prisma": "^5.4.1",
 		"rimraf": "^5.0.5",
 		"typescript": "^5.2.2"
 	},
@@ -89,7 +89,7 @@
 			"@typescript-eslint/no-base-to-string": "off"
 		}
 	},
-	"packageManager": "yarn@3.6.3",
+	"packageManager": "yarn@3.6.4",
 	"volta": {
 		"node": "18.18.0"
 	}
