@@ -23,8 +23,8 @@
 		"update": "yarn upgrade-interactive"
 	},
 	"dependencies": {
-		"@discordjs/builders": "^1.6.3",
-		"@discordjs/collection": "^1.5.1",
+		"@discordjs/builders": "^1.6.5",
+		"@discordjs/collection": "^1.5.3",
 		"@prisma/client": "^5.5.2",
 		"@sapphire/utilities": "^3.13.0",
 		"@skyra/env-utilities": "^1.2.1",
@@ -35,7 +35,7 @@
 		"@skyra/shared-http-pieces": "^1.1.0",
 		"@skyra/start-banner": "^2.0.0",
 		"@skyra/twitch-helpers": "^1.0.3",
-		"discord-api-types": "^0.37.50",
+		"discord-api-types": "^0.37.61",
 		"gradient-string": "^2.0.2",
 		"tslib": "^2.6.2"
 	},
@@ -44,9 +44,9 @@
 		"@commitlint/config-conventional": "^18.1.0",
 		"@sapphire/eslint-config": "^5.0.2",
 		"@sapphire/prettier-config": "^2.0.0",
-		"@sapphire/ts-config": "^4.0.1",
+		"@sapphire/ts-config": "^5.0.0",
 		"@types/gradient-string": "^1.1.4",
-		"@types/node": "^18.18.7",
+		"@types/node": "^20.8.9",
 		"@typescript-eslint/eslint-plugin": "^6.9.0",
 		"@typescript-eslint/parser": "^6.9.0",
 		"cz-conventional-changelog": "^3.3.0",
@@ -87,7 +87,7 @@
 			"@typescript-eslint/no-base-to-string": "off"
 		}
 	},
-	"packageManager": "yarn@3.6.4",
+	"packageManager": "yarn@4.0.1",
 	"volta": {
 		"node": "18.18.2"
 	}
