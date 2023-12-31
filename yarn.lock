@@ -695,7 +695,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@skyra/env-utilities@npm:^1.2.2, @skyra/env-utilities@npm:^1.3.0":
+"@skyra/env-utilities@npm:^1.3.0":
   version: 1.3.0
   resolution: "@skyra/env-utilities@npm:1.3.0"
   dependencies:
