@@ -12,8 +12,5 @@ declare module '@skyra/env-utilities' {
 
 		INTERNAL_RING_URL: string;
 		INTERNAL_RING_TOKEN: string;
-
-		TWITCH_CLIENT_ID: string;
-		TWITCH_TOKEN: string;
 	}
 }
