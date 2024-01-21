@@ -660,7 +660,7 @@ __metadata:
     "@commitlint/cli": "npm:^18.4.4"
     "@commitlint/config-conventional": "npm:^18.4.4"
     "@discordjs/builders": "npm:^1.7.0"
-    "@discordjs/collection": "npm:^1.5.3"
+    "@discordjs/collection": "npm:^2.0.0"
     "@prisma/client": "npm:^5.8.1"
     "@sapphire/eslint-config": "npm:^5.0.3"
     "@sapphire/prettier-config": "npm:^2.0.0"
