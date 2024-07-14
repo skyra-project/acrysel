@@ -56,7 +56,7 @@
 		"lint-staged": "^15.2.7",
 		"prettier": "^3.3.3",
 		"prisma": "^5.16.2",
-		"rimraf": "^5.0.9",
+		"rimraf": "^6.0.1",
 		"typescript": "^5.5.2"
 	},
 	"resolutions": {
