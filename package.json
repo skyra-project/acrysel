@@ -35,9 +35,9 @@
 		"@skyra/shared-http-pieces": "^1.2.2",
 		"@skyra/start-banner": "^2.0.1",
 		"@skyra/twitch-helpers": "^2.0.1",
-		"discord-api-types": "^0.37.94",
+		"discord-api-types": "^0.37.97",
 		"gradient-string": "^2.0.2",
-		"tslib": "^2.6.3"
+		"tslib": "^2.7.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.4.0",
@@ -46,11 +46,11 @@
 		"@sapphire/prettier-config": "^2.0.0",
 		"@sapphire/ts-config": "^5.0.1",
 		"@types/gradient-string": "^1.1.6",
-		"@types/node": "^20.16.0",
+		"@types/node": "^20.16.1",
 		"@typescript-eslint/eslint-plugin": "^7.13.1",
 		"@typescript-eslint/parser": "^7.13.1",
 		"cz-conventional-changelog": "^3.3.0",
-		"eslint": "^9.9.0",
+		"eslint": "^9.9.1",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-prettier": "^5.2.1",
 		"lint-staged": "^15.2.9",
@@ -87,7 +87,7 @@
 			"@typescript-eslint/no-base-to-string": "off"
 		}
 	},
-	"packageManager": "yarn@4.4.0",
+	"packageManager": "yarn@4.4.1",
 	"volta": {
 		"node": "18.20.4"
 	}
