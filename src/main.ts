@@ -4,7 +4,7 @@ import { envParseInteger, envParseString } from '@skyra/env-utilities';
 import { Client, container } from '@skyra/http-framework';
 import { init, load } from '@skyra/http-framework-i18n';
 import { createBanner } from '@skyra/start-banner';
-import gradient from 'gradient-string';
+import { pastel } from 'gradient-string';
 
 setup();
 
@@ -21,7 +21,7 @@ const port = envParseInteger('HTTP_PORT', 3000);
 await client.listen({ address, port });
 
 console.log(
-	gradient.pastel.multiline(
+	pastel.multiline(
 		createBanner({
 			logo: [
 				String.raw`     //\\ `,
