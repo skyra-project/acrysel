@@ -25,7 +25,7 @@
 	"dependencies": {
 		"@discordjs/builders": "^1.11.2",
 		"@discordjs/collection": "^1.5.3",
-		"@prisma/client": "^6.7.0",
+		"@prisma/client": "^6.8.2",
 		"@sapphire/utilities": "^3.18.2",
 		"@skyra/env-utilities": "^2.0.0",
 		"@skyra/http-framework": "^1.2.2",
@@ -46,16 +46,16 @@
 		"@sapphire/prettier-config": "^2.0.0",
 		"@sapphire/ts-config": "^5.0.1",
 		"@types/gradient-string": "^1.1.6",
-		"@types/node": "^22.15.17",
+		"@types/node": "^22.15.21",
 		"@typescript-eslint/eslint-plugin": "^7.13.1",
 		"@typescript-eslint/parser": "^7.13.1",
 		"cz-conventional-changelog": "^3.3.0",
-		"eslint": "^9.26.0",
+		"eslint": "^9.27.0",
 		"eslint-config-prettier": "^10.1.5",
 		"eslint-plugin-prettier": "^5.4.0",
 		"lint-staged": "^16.0.0",
 		"prettier": "^3.5.3",
-		"prisma": "^6.7.0",
+		"prisma": "^6.8.2",
 		"rimraf": "^6.0.1",
 		"typescript": "^5.5.2"
 	},
@@ -89,6 +89,6 @@
 	},
 	"packageManager": "yarn@4.9.1",
 	"volta": {
-		"node": "22.15.0"
+		"node": "22.16.0"
 	}
 }
