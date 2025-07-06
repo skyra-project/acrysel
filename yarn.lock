@@ -387,10 +387,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.30.0":
-  version: 9.30.0
-  resolution: "@eslint/js@npm:9.30.0"
-  checksum: 10/42e3d5a9cdd5a0842f3ed078e28f81ae1cf04bd2edfd09f43e6dc148bb2e99904f09090007eb6485afd82d837771890c5a8b9ceb1e8c4e256953df4b4aa97308
+"@eslint/js@npm:9.30.1":
+  version: 9.30.1
+  resolution: "@eslint/js@npm:9.30.1"
+  checksum: 10/f32c8a42b1343b03613b92a4a7c4745d19a93e66ffb8fac18ccd066deaa200b2fc55f476bf0407d7748f663bc947ca78c0518f13f60cd9ed08d0ba8b7bb74370
   languageName: node
   linkType: hard
 
@@ -992,9 +992,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:^6.10.1":
-  version: 6.10.1
-  resolution: "@prisma/client@npm:6.10.1"
+"@prisma/client@npm:^6.11.1":
+  version: 6.11.1
+  resolution: "@prisma/client@npm:6.11.1"
   peerDependencies:
     prisma: "*"
     typescript: ">=5.1.0"
@@ -1003,62 +1003,62 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/2b3eca8767b3cb071125ee28af4f933ba618c36d663740e37c67064c0453bdf0156830b22d7a8fcc64842087f3b6a762df90c15e8e9ed1fd750d8b057cd10cf7
+  checksum: 10/636973ea60fa8e3e41ce0af0485d7fe8d98ed67c404e4b139fa466906e0594c5a89662d927fed96600133b849ee249143e0b15d5c7ce15e7a7e9e563549cc8f0
   languageName: node
   linkType: hard
 
-"@prisma/config@npm:6.10.1":
-  version: 6.10.1
-  resolution: "@prisma/config@npm:6.10.1"
+"@prisma/config@npm:6.11.1":
+  version: 6.11.1
+  resolution: "@prisma/config@npm:6.11.1"
   dependencies:
     jiti: "npm:2.4.2"
-  checksum: 10/3cfd2fafd7a58f3af9a45fee002f9fc5e664eb4650c8703685e2e9bc345a77cc12996be1e2926d04f7df69a4515ab8b2f830feaa191c709930684d22833e4e1b
+  checksum: 10/94ad02e7bc19a39dbb4599709968cedd222a5e3a13434d6864a2efe3391f87c0a93fb5c1e59ea2691e785ce4a3196b50411c29af67c6d505c165c968a31e70a1
   languageName: node
   linkType: hard
 
-"@prisma/debug@npm:6.10.1":
-  version: 6.10.1
-  resolution: "@prisma/debug@npm:6.10.1"
-  checksum: 10/dbaadd9534b92cf6445ea66b8763e9de3607ad6d174344e6d623c371dc7a8fa1fbe03d5e7350d0a5f85bc2243911a77a4e7302e5f3f52dbbd46732eeb9470cc6
+"@prisma/debug@npm:6.11.1":
+  version: 6.11.1
+  resolution: "@prisma/debug@npm:6.11.1"
+  checksum: 10/26b39279463cfa3ecfb87fa2d2c99c150cc5496aafb688789b46f8131a25ad6e30bc04ffed10c9d0032ec26fcfd9b32167f6c7ff3f0bc66783c8fa83d6fe3d2b
   languageName: node
   linkType: hard
 
-"@prisma/engines-version@npm:6.10.1-1.9b628578b3b7cae625e8c927178f15a170e74a9c":
-  version: 6.10.1-1.9b628578b3b7cae625e8c927178f15a170e74a9c
-  resolution: "@prisma/engines-version@npm:6.10.1-1.9b628578b3b7cae625e8c927178f15a170e74a9c"
-  checksum: 10/29f0b07713335e9c1cd4e31031164a9b2d81f0f87d0e60e7226db897980c27cf16d23f987f124c4f6488aa424503c42f7ad4ea561eb8d330c08624500835bf97
+"@prisma/engines-version@npm:6.11.1-1.f40f79ec31188888a2e33acda0ecc8fd10a853a9":
+  version: 6.11.1-1.f40f79ec31188888a2e33acda0ecc8fd10a853a9
+  resolution: "@prisma/engines-version@npm:6.11.1-1.f40f79ec31188888a2e33acda0ecc8fd10a853a9"
+  checksum: 10/bedfe07baec05fea2233851fed76007dcf111509c945fe1d99740162e0a3b960f2844588bfaa648f1de71b0d1979e11b6fc28879608257eaada722a6253c2cd6
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:6.10.1":
-  version: 6.10.1
-  resolution: "@prisma/engines@npm:6.10.1"
+"@prisma/engines@npm:6.11.1":
+  version: 6.11.1
+  resolution: "@prisma/engines@npm:6.11.1"
   dependencies:
-    "@prisma/debug": "npm:6.10.1"
-    "@prisma/engines-version": "npm:6.10.1-1.9b628578b3b7cae625e8c927178f15a170e74a9c"
-    "@prisma/fetch-engine": "npm:6.10.1"
-    "@prisma/get-platform": "npm:6.10.1"
-  checksum: 10/38084772912fa61101144f49dc0f4eff154c33fd7e2e5a6b8a5fc6ea1a6ece8dc55fe8a9fb1f36da1c591688e0fa401fedc4949324080256696e06dafbf82a97
+    "@prisma/debug": "npm:6.11.1"
+    "@prisma/engines-version": "npm:6.11.1-1.f40f79ec31188888a2e33acda0ecc8fd10a853a9"
+    "@prisma/fetch-engine": "npm:6.11.1"
+    "@prisma/get-platform": "npm:6.11.1"
+  checksum: 10/9d754f2a17b31ca721098e529e55f97a573bb5563c8e627b89122193383330cec8ea71734ba857ea1fd39e234138d599223a6f3c210929802d4a6a8a02c2b126
   languageName: node
   linkType: hard
 
-"@prisma/fetch-engine@npm:6.10.1":
-  version: 6.10.1
-  resolution: "@prisma/fetch-engine@npm:6.10.1"
+"@prisma/fetch-engine@npm:6.11.1":
+  version: 6.11.1
+  resolution: "@prisma/fetch-engine@npm:6.11.1"
   dependencies:
-    "@prisma/debug": "npm:6.10.1"
-    "@prisma/engines-version": "npm:6.10.1-1.9b628578b3b7cae625e8c927178f15a170e74a9c"
-    "@prisma/get-platform": "npm:6.10.1"
-  checksum: 10/1536789cbb625155578538b1240ac68867d313e2c1fbd460d35ee66fc9b2072100ec1305a3c209bd94ecb33f97a180d022098a0f49018abe25622b83395fcc82
+    "@prisma/debug": "npm:6.11.1"
+    "@prisma/engines-version": "npm:6.11.1-1.f40f79ec31188888a2e33acda0ecc8fd10a853a9"
+    "@prisma/get-platform": "npm:6.11.1"
+  checksum: 10/27e2fbf7754b1fc863d0c9f87a65b343f26b0b84398d1bef1dd59ff650687b6c372354b90c1aabc957b15fc136bd812c750ad233033f8fe8a0b932c8af8b557b
   languageName: node
   linkType: hard
 
-"@prisma/get-platform@npm:6.10.1":
-  version: 6.10.1
-  resolution: "@prisma/get-platform@npm:6.10.1"
+"@prisma/get-platform@npm:6.11.1":
+  version: 6.11.1
+  resolution: "@prisma/get-platform@npm:6.11.1"
   dependencies:
-    "@prisma/debug": "npm:6.10.1"
-  checksum: 10/62bcc3389b4e03c62efd52ddc113a5e54b0ca9ff0d11ae2a547d7fb4385e6cc0e383398c8da0ab2cda224572ad9a4e8091accc216543f3275edfc8e49ed992ca
+    "@prisma/debug": "npm:6.11.1"
+  checksum: 10/1624b761a844a26d222eabf64151f97325f2bcb1ead4148035be6be94eb62105a7fcdca7a77b62b7c9cfafa6efa8ee421a594fd8e7c4a6836cc0807fd334ffc7
   languageName: node
   linkType: hard
 
@@ -1241,7 +1241,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:^19.8.1"
     "@discordjs/builders": "npm:^1.11.2"
     "@discordjs/collection": "npm:^1.5.3"
-    "@prisma/client": "npm:^6.10.1"
+    "@prisma/client": "npm:^6.11.1"
     "@sapphire/eslint-config": "npm:^5.0.6"
     "@sapphire/prettier-config": "npm:^2.0.0"
     "@sapphire/ts-config": "npm:^5.0.1"
@@ -1255,18 +1255,18 @@ __metadata:
     "@skyra/start-banner": "npm:^2.0.2"
     "@skyra/twitch-helpers": "npm:^2.0.2"
     "@types/gradient-string": "npm:^1.1.6"
-    "@types/node": "npm:^22.15.34"
+    "@types/node": "npm:^22.16.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.13.1"
     "@typescript-eslint/parser": "npm:^7.13.1"
     cz-conventional-changelog: "npm:^3.3.0"
     discord-api-types: "npm:^0.37.100"
-    eslint: "npm:^9.30.0"
+    eslint: "npm:^9.30.1"
     eslint-config-prettier: "npm:^10.1.5"
     eslint-plugin-prettier: "npm:^5.5.1"
     gradient-string: "npm:^3.0.0"
     lint-staged: "npm:^16.1.2"
     prettier: "npm:^3.6.2"
-    prisma: "npm:^6.10.1"
+    prisma: "npm:^6.11.1"
     rimraf: "npm:^6.0.1"
     tslib: "npm:^2.8.1"
     typescript: "npm:^5.5.2"
@@ -1442,12 +1442,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^22.15.34":
-  version: 22.15.34
-  resolution: "@types/node@npm:22.15.34"
+"@types/node@npm:*, @types/node@npm:^22.16.0":
+  version: 22.16.0
+  resolution: "@types/node@npm:22.16.0"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10/b0fb6674f6c17e3d515531d7f787ccd6676641ba161a6a0e6a93a2d5bc2089fde492eac24b5152a11413bf07a818055a9ec9077d3200b03cf7ea9718470a8417
+  checksum: 10/26ebbbd24749caa4a692664290c53cdca63ec717ca250cd2babf3d3da796e9d3d0b6b9814d160693261b5e881796bf0f3c1887fef355b19e9a78fe27cd5e2ce2
   languageName: node
   linkType: hard
 
@@ -2442,9 +2442,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^9.30.0":
-  version: 9.30.0
-  resolution: "eslint@npm:9.30.0"
+"eslint@npm:^9.30.1":
+  version: 9.30.1
+  resolution: "eslint@npm:9.30.1"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@eslint-community/regexpp": "npm:^4.12.1"
@@ -2452,7 +2452,7 @@ __metadata:
     "@eslint/config-helpers": "npm:^0.3.0"
     "@eslint/core": "npm:^0.14.0"
     "@eslint/eslintrc": "npm:^3.3.1"
-    "@eslint/js": "npm:9.30.0"
+    "@eslint/js": "npm:9.30.1"
     "@eslint/plugin-kit": "npm:^0.3.1"
     "@humanfs/node": "npm:^0.16.6"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
@@ -2488,7 +2488,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10/74c11e6be5997f0de6542932795e997c1586f8f21cdeeda09c89c6c36879a9a593af84f1fd594bd8e22814c54ca0ad65513a0c91b0e8944efb51faed34b7d3b0
+  checksum: 10/bd3024f730c88a2d099455f5ec5be2d6293eaf1412eb5111427282e1060b7f87891168ccbded10b71fc7182e05151e42511ec29d4e0d4ece5e3151eaf8d54763
   languageName: node
   linkType: hard
 
@@ -3989,12 +3989,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:^6.10.1":
-  version: 6.10.1
-  resolution: "prisma@npm:6.10.1"
+"prisma@npm:^6.11.1":
+  version: 6.11.1
+  resolution: "prisma@npm:6.11.1"
   dependencies:
-    "@prisma/config": "npm:6.10.1"
-    "@prisma/engines": "npm:6.10.1"
+    "@prisma/config": "npm:6.11.1"
+    "@prisma/engines": "npm:6.11.1"
   peerDependencies:
     typescript: ">=5.1.0"
   peerDependenciesMeta:
@@ -4002,7 +4002,7 @@ __metadata:
       optional: true
   bin:
     prisma: build/index.js
-  checksum: 10/3de8f66935453cf5bcd3e31ae348f79ecd36a6654df64cab613d3b2d39c949b86404dcdfb6646ba9af46185943414f55917cd2b2ce4170a78a4584691c42e6ba
+  checksum: 10/1d75ffcd88513064dc472b47075016b6137c92ee862a1c16d1c4d225fd4f8b1cb2337554782636a035daef1c6df6d509997829262cc9ab98a7279043212d6f96
   languageName: node
   linkType: hard
 
