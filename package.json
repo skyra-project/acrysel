@@ -50,7 +50,7 @@
 		"@typescript-eslint/eslint-plugin": "^7.13.1",
 		"@typescript-eslint/parser": "^7.13.1",
 		"cz-conventional-changelog": "^3.3.0",
-		"eslint": "^9.33.0",
+		"eslint": "^9.34.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-prettier": "^5.5.4",
 		"lint-staged": "^16.1.5",
@@ -87,7 +87,7 @@
 			"@typescript-eslint/no-base-to-string": "off"
 		}
 	},
-	"packageManager": "yarn@4.9.2",
+	"packageManager": "yarn@4.9.3",
 	"volta": {
 		"node": "22.18.0"
 	}
