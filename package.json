@@ -25,7 +25,7 @@
 	"dependencies": {
 		"@discordjs/builders": "^1.11.3",
 		"@discordjs/collection": "^1.5.3",
-		"@prisma/client": "^6.15.0",
+		"@prisma/client": "^6.16.1",
 		"@sapphire/utilities": "^3.18.2",
 		"@skyra/env-utilities": "^2.0.1",
 		"@skyra/http-framework": "^1.2.2",
@@ -46,7 +46,7 @@
 		"@sapphire/prettier-config": "^2.0.0",
 		"@sapphire/ts-config": "^5.0.1",
 		"@types/gradient-string": "^1.1.6",
-		"@types/node": "^22.18.1",
+		"@types/node": "^22.18.3",
 		"@typescript-eslint/eslint-plugin": "^7.13.1",
 		"@typescript-eslint/parser": "^7.13.1",
 		"cz-conventional-changelog": "^3.3.0",
@@ -55,7 +55,7 @@
 		"eslint-plugin-prettier": "^5.5.4",
 		"lint-staged": "^16.1.6",
 		"prettier": "^3.6.2",
-		"prisma": "^6.15.0",
+		"prisma": "^6.16.1",
 		"rimraf": "^6.0.1",
 		"typescript": "^5.5.2"
 	},
