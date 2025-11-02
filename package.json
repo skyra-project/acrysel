@@ -46,17 +46,17 @@
 		"@sapphire/prettier-config": "^2.0.0",
 		"@sapphire/ts-config": "^5.0.1",
 		"@types/gradient-string": "^1.1.6",
-		"@types/node": "^22.18.12",
+		"@types/node": "^22.18.13",
 		"@typescript-eslint/eslint-plugin": "^7.13.1",
 		"@typescript-eslint/parser": "^7.13.1",
 		"cz-conventional-changelog": "^3.3.0",
-		"eslint": "^9.38.0",
+		"eslint": "^9.39.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-prettier": "^5.5.4",
 		"lint-staged": "^16.2.6",
 		"prettier": "^3.6.2",
 		"prisma": "^6.18.0",
-		"rimraf": "^6.0.1",
+		"rimraf": "^6.1.0",
 		"typescript": "^5.5.2"
 	},
 	"resolutions": {
@@ -89,6 +89,6 @@
 	},
 	"packageManager": "yarn@4.10.3",
 	"volta": {
-		"node": "22.21.0"
+		"node": "22.21.1"
 	}
 }
