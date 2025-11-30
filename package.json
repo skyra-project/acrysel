@@ -44,7 +44,7 @@
 		"@commitlint/config-conventional": "^20.0.0",
 		"@sapphire/eslint-config": "^5.0.6",
 		"@sapphire/prettier-config": "^2.0.0",
-		"@sapphire/ts-config": "^5.0.2",
+		"@sapphire/ts-config": "^5.0.3",
 		"@types/gradient-string": "^1.1.6",
 		"@types/node": "^24.10.1",
 		"@typescript-eslint/eslint-plugin": "^7.13.1",
@@ -54,7 +54,7 @@
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-prettier": "^5.5.4",
 		"lint-staged": "^16.2.7",
-		"prettier": "^3.6.2",
+		"prettier": "^3.7.3",
 		"prisma": "^6.19.0",
 		"rimraf": "^6.1.2",
 		"typescript": "^5.5.2"
@@ -87,7 +87,7 @@
 			"@typescript-eslint/no-base-to-string": "off"
 		}
 	},
-	"packageManager": "yarn@4.11.0",
+	"packageManager": "yarn@4.12.0",
 	"volta": {
 		"node": "24.11.1"
 	}
