@@ -1,1 +1,3 @@
-{}
+{
+	"infoEmbedDescription": "Acrysel é um bot focado em notificações. Este é um bot único de HTTP construído em cima do [Skyra HTTP Framework](https://www.npmjs.com/package/@skyra/http-framework)."
+}
