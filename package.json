@@ -54,7 +54,7 @@
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-prettier": "^5.5.5",
 		"lint-staged": "^16.2.7",
-		"prettier": "^3.8.0",
+		"prettier": "^3.8.1",
 		"prisma": "^6.19.2",
 		"rimraf": "^6.1.2",
 		"typescript": "^5.5.2"
