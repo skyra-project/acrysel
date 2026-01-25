@@ -25,7 +25,7 @@
 	"dependencies": {
 		"@discordjs/builders": "^1.13.1",
 		"@discordjs/collection": "^1.5.3",
-		"@prisma/client": "^6.19.2",
+		"@prisma/client": "^7.3.0",
 		"@sapphire/utilities": "^3.18.2",
 		"@skyra/env-utilities": "^2.0.1",
 		"@skyra/http-framework": "^1.2.2",
@@ -55,7 +55,7 @@
 		"eslint-plugin-prettier": "^5.5.5",
 		"lint-staged": "^16.2.7",
 		"prettier": "^3.8.1",
-		"prisma": "^6.19.2",
+		"prisma": "^7.3.0",
 		"rimraf": "^6.1.2",
 		"typescript": "^5.5.2"
 	},
